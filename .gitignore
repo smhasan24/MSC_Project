@@ -1,0 +1,17 @@
+# Data (download from Kaggle — see README)
+*.csv
+!results/**/*.csv
+
+# Model checkpoints & logs
+*_mh_cls/
+logs_*/
+*.h5
+*.keras
+*.safetensors
+*.bin
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env

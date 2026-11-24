@@ -1,0 +1,19 @@
+Model      : BiLSTM
+Family     : Deep Learning
+Accuracy   : 0.7051
+Macro-F1   : 0.6747
+Test split : 20% hold-out (random_state=101)
+
+                      precision    recall  f1-score   support
+
+             Anxiety       0.72      0.83      0.77       778
+             Bipolar       0.64      0.80      0.71       575
+          Depression       0.74      0.43      0.55      3081
+              Normal       0.93      0.89      0.91      3270
+Personality disorder       0.46      0.73      0.57       240
+              Stress       0.54      0.66      0.59       534
+            Suicidal       0.53      0.75      0.62      2131
+
+            accuracy                           0.71     10609
+           macro avg       0.65      0.73      0.67     10609
+        weighted avg       0.73      0.71      0.70     10609

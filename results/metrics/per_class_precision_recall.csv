@@ -1,0 +1,106 @@
+model,class,precision,recall,f1
+BERT-base-uncased,Anxiety,0.87,0.9,0.89
+BERT-base-uncased,Bipolar,0.86,0.87,0.87
+BERT-base-uncased,Depression,0.83,0.73,0.77
+BERT-base-uncased,Normal,0.95,0.95,0.95
+BERT-base-uncased,Personality disorder,0.76,0.85,0.8
+BERT-base-uncased,Stress,0.73,0.78,0.76
+BERT-base-uncased,Suicidal,0.7,0.8,0.75
+XGBoost,Anxiety,0.83,0.82,0.82
+XGBoost,Bipolar,0.91,0.75,0.82
+XGBoost,Depression,0.74,0.76,0.75
+XGBoost,Normal,0.91,0.95,0.93
+XGBoost,Personality disorder,0.77,0.69,0.72
+XGBoost,Stress,0.71,0.64,0.67
+XGBoost,Suicidal,0.7,0.68,0.69
+Soft Voting Ensemble,Anxiety,0.83,0.83,0.83
+Soft Voting Ensemble,Bipolar,0.94,0.73,0.82
+Soft Voting Ensemble,Depression,0.72,0.77,0.75
+Soft Voting Ensemble,Normal,0.88,0.95,0.92
+Soft Voting Ensemble,Personality disorder,0.81,0.67,0.73
+Soft Voting Ensemble,Stress,0.76,0.59,0.66
+Soft Voting Ensemble,Suicidal,0.71,0.64,0.68
+Stacking Ensemble,Anxiety,0.83,0.84,0.84
+Stacking Ensemble,Bipolar,0.82,0.82,0.82
+Stacking Ensemble,Depression,0.81,0.67,0.73
+Stacking Ensemble,Normal,0.94,0.9,0.92
+Stacking Ensemble,Personality disorder,0.58,0.84,0.69
+Stacking Ensemble,Stress,0.5,0.82,0.62
+Stacking Ensemble,Suicidal,0.68,0.75,0.71
+Logistic Regression (L1),Anxiety,0.8,0.8,0.8
+Logistic Regression (L1),Bipolar,0.82,0.78,0.8
+Logistic Regression (L1),Depression,0.73,0.69,0.71
+Logistic Regression (L1),Normal,0.9,0.93,0.92
+Logistic Regression (L1),Personality disorder,0.67,0.77,0.72
+Logistic Regression (L1),Stress,0.59,0.65,0.62
+Logistic Regression (L1),Suicidal,0.66,0.66,0.66
+Extra Trees,Anxiety,0.76,0.85,0.8
+Extra Trees,Bipolar,0.85,0.75,0.8
+Extra Trees,Depression,0.72,0.65,0.68
+Extra Trees,Normal,0.88,0.92,0.9
+Extra Trees,Personality disorder,0.76,0.54,0.63
+Extra Trees,Stress,0.6,0.6,0.6
+Extra Trees,Suicidal,0.64,0.71,0.68
+Gradient Boosting,Anxiety,0.8,0.75,0.78
+Gradient Boosting,Bipolar,0.92,0.68,0.78
+Gradient Boosting,Depression,0.71,0.75,0.73
+Gradient Boosting,Normal,0.86,0.95,0.9
+Gradient Boosting,Personality disorder,0.71,0.62,0.67
+Gradient Boosting,Stress,0.63,0.52,0.57
+Gradient Boosting,Suicidal,0.7,0.63,0.66
+Random Forest,Anxiety,0.75,0.77,0.76
+Random Forest,Bipolar,0.86,0.73,0.79
+Random Forest,Depression,0.72,0.68,0.7
+Random Forest,Normal,0.85,0.92,0.88
+Random Forest,Personality disorder,0.77,0.52,0.62
+Random Forest,Stress,0.55,0.61,0.58
+Random Forest,Suicidal,0.66,0.64,0.65
+1D-CNN,Anxiety,0.83,0.79,0.81
+1D-CNN,Bipolar,0.71,0.8,0.75
+1D-CNN,Depression,0.84,0.51,0.63
+1D-CNN,Normal,0.94,0.89,0.91
+1D-CNN,Personality disorder,0.35,0.82,0.49
+1D-CNN,Stress,0.55,0.56,0.55
+1D-CNN,Suicidal,0.58,0.85,0.69
+BiLSTM,Anxiety,0.72,0.83,0.77
+BiLSTM,Bipolar,0.64,0.8,0.71
+BiLSTM,Depression,0.74,0.43,0.55
+BiLSTM,Normal,0.93,0.89,0.91
+BiLSTM,Personality disorder,0.46,0.73,0.57
+BiLSTM,Stress,0.54,0.66,0.59
+BiLSTM,Suicidal,0.53,0.75,0.62
+Bernoulli Naive Bayes,Anxiety,0.69,0.57,0.62
+Bernoulli Naive Bayes,Bipolar,0.69,0.58,0.63
+Bernoulli Naive Bayes,Depression,0.71,0.46,0.56
+Bernoulli Naive Bayes,Normal,0.66,0.92,0.77
+Bernoulli Naive Bayes,Personality disorder,0.72,0.48,0.58
+Bernoulli Naive Bayes,Stress,0.36,0.61,0.45
+Bernoulli Naive Bayes,Suicidal,0.59,0.52,0.56
+Multinomial Naive Bayes,Anxiety,0.7,0.61,0.65
+Multinomial Naive Bayes,Bipolar,0.79,0.52,0.63
+Multinomial Naive Bayes,Depression,0.6,0.68,0.64
+Multinomial Naive Bayes,Normal,0.78,0.91,0.84
+Multinomial Naive Bayes,Personality disorder,1.0,0.11,0.2
+Multinomial Naive Bayes,Stress,0.62,0.35,0.45
+Multinomial Naive Bayes,Suicidal,0.66,0.58,0.62
+Decision Tree,Anxiety,0.44,0.69,0.54
+Decision Tree,Bipolar,0.9,0.4,0.56
+Decision Tree,Depression,0.7,0.63,0.66
+Decision Tree,Normal,0.76,0.93,0.83
+Decision Tree,Personality disorder,0.66,0.3,0.41
+Decision Tree,Stress,0.57,0.27,0.37
+Decision Tree,Suicidal,0.6,0.56,0.58
+LinearSVC (Calibrated),Anxiety,0.68,0.45,0.54
+LinearSVC (Calibrated),Bipolar,0.28,0.04,0.06
+LinearSVC (Calibrated),Depression,0.47,0.85,0.6
+LinearSVC (Calibrated),Normal,0.8,0.92,0.86
+LinearSVC (Calibrated),Personality disorder,1.0,0.02,0.03
+LinearSVC (Calibrated),Stress,0.44,0.01,0.02
+LinearSVC (Calibrated),Suicidal,0.76,0.22,0.34
+SGD (Log Loss),Anxiety,0.0,0.0,0.0
+SGD (Log Loss),Bipolar,0.0,0.0,0.0
+SGD (Log Loss),Depression,0.0,0.0,0.0
+SGD (Log Loss),Normal,0.69,0.9,0.78
+SGD (Log Loss),Personality disorder,0.0,0.0,0.0
+SGD (Log Loss),Stress,0.0,0.0,0.0
+SGD (Log Loss),Suicidal,0.26,0.77,0.39

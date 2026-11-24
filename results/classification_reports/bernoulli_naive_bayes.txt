@@ -1,0 +1,19 @@
+Model      : Bernoulli Naive Bayes
+Family     : Classical ML
+Accuracy   : 0.6355
+Macro-F1   : 0.5951
+Test split : 20% hold-out (random_state=101)
+
+                      precision    recall  f1-score   support
+
+             Anxiety       0.69      0.57      0.62       755
+             Bipolar       0.69      0.58      0.63       590
+          Depression       0.71      0.46      0.56      3128
+              Normal       0.66      0.92      0.77      3252
+Personality disorder       0.72      0.48      0.58       233
+              Stress       0.36      0.61      0.45       519
+            Suicidal       0.59      0.52      0.56      2132
+
+            accuracy                           0.64     10609
+           macro avg       0.63      0.59      0.60     10609
+        weighted avg       0.65      0.64      0.63     10609

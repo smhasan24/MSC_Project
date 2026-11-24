@@ -1,0 +1,19 @@
+Model      : Soft Voting Ensemble
+Family     : Ensemble
+Accuracy   : 0.7934
+Macro-F1   : 0.7694
+Test split : 20% hold-out (random_state=101)
+
+                      precision    recall  f1-score   support
+
+             Anxiety       0.83      0.83      0.83       755
+             Bipolar       0.94      0.73      0.82       590
+          Depression       0.72      0.77      0.75      3128
+              Normal       0.88      0.95      0.92      3252
+Personality disorder       0.81      0.67      0.73       233
+              Stress       0.76      0.59      0.66       519
+            Suicidal       0.71      0.64      0.68      2132
+
+            accuracy                           0.79     10609
+           macro avg       0.81      0.74      0.77     10609
+        weighted avg       0.79      0.79      0.79     10609

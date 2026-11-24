@@ -1,0 +1,19 @@
+Model      : Logistic Regression (L1)
+Family     : Classical ML
+Accuracy   : 0.7715
+Macro-F1   : 0.7466
+Test split : 20% hold-out (random_state=101)
+
+                      precision    recall  f1-score   support
+
+             Anxiety       0.80      0.80      0.80       755
+             Bipolar       0.82      0.78      0.80       590
+          Depression       0.73      0.69      0.71      3128
+              Normal       0.90      0.93      0.92      3252
+Personality disorder       0.67      0.77      0.72       233
+              Stress       0.59      0.65      0.62       519
+            Suicidal       0.66      0.66      0.66      2132
+
+            accuracy                           0.77     10609
+           macro avg       0.74      0.76      0.75     10609
+        weighted avg       0.77      0.77      0.77     10609

@@ -1,0 +1,16 @@
+rank,model,family,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,notebook
+1,BERT-base-uncased,Transformer,0.8367,0.82,0.84,0.8260,0.84,02_transformer_bert.ipynb
+2,XGBoost,Classical ML,0.7989,0.79,0.76,0.7732,0.8,01_eda_classical_ml_deep_learning.ipynb
+3,Soft Voting Ensemble,Ensemble,0.7934,0.81,0.74,0.7694,0.79,01_eda_classical_ml_deep_learning.ipynb
+4,Stacking Ensemble,Ensemble,0.7887,0.74,0.81,0.7611,0.79,01_eda_classical_ml_deep_learning.ipynb
+5,Logistic Regression (L1),Classical ML,0.7715,0.74,0.76,0.7466,0.77,01_eda_classical_ml_deep_learning.ipynb
+6,Extra Trees,Classical ML,0.7586,0.75,0.72,0.7269,0.76,01_eda_classical_ml_deep_learning.ipynb
+7,Gradient Boosting,Classical ML,0.7698,0.76,0.7,0.7268,0.77,01_eda_classical_ml_deep_learning.ipynb
+8,Random Forest,Classical ML,0.7491,0.74,0.7,0.7117,0.75,01_eda_classical_ml_deep_learning.ipynb
+9,1D-CNN,Deep Learning,0.7404,0.68,0.75,0.6912,0.74,01_eda_classical_ml_deep_learning.ipynb
+10,BiLSTM,Deep Learning,0.7051,0.65,0.73,0.6747,0.7,01_eda_classical_ml_deep_learning.ipynb
+11,Bernoulli Naive Bayes,Classical ML,0.6355,0.63,0.59,0.5951,0.63,01_eda_classical_ml_deep_learning.ipynb
+12,Multinomial Naive Bayes,Classical ML,0.6908,0.74,0.54,0.5757,0.68,01_eda_classical_ml_deep_learning.ipynb
+13,Decision Tree,Classical ML,0.6753,0.66,0.54,0.5648,0.66,01_eda_classical_ml_deep_learning.ipynb
+14,LinearSVC (Calibrated),Classical ML,0.6117,0.63,0.36,0.3503,0.55,01_eda_classical_ml_deep_learning.ipynb
+15,SGD (Log Loss),Classical ML,0.4310,0.14,0.24,0.1670,0.32,01_eda_classical_ml_deep_learning.ipynb

@@ -1,0 +1,19 @@
+Model      : Random Forest
+Family     : Classical ML
+Accuracy   : 0.7491
+Macro-F1   : 0.7117
+Test split : 20% hold-out (random_state=101)
+
+                      precision    recall  f1-score   support
+
+             Anxiety       0.75      0.77      0.76       755
+             Bipolar       0.86      0.73      0.79       590
+          Depression       0.72      0.68      0.70      3128
+              Normal       0.85      0.92      0.88      3252
+Personality disorder       0.77      0.52      0.62       233
+              Stress       0.55      0.61      0.58       519
+            Suicidal       0.66      0.64      0.65      2132
+
+            accuracy                           0.75     10609
+           macro avg       0.74      0.70      0.71     10609
+        weighted avg       0.75      0.75      0.75     10609

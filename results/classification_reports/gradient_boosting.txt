@@ -1,0 +1,19 @@
+Model      : Gradient Boosting
+Family     : Classical ML
+Accuracy   : 0.7698
+Macro-F1   : 0.7268
+Test split : 20% hold-out (random_state=101)
+
+                      precision    recall  f1-score   support
+
+             Anxiety       0.80      0.75      0.78       755
+             Bipolar       0.92      0.68      0.78       590
+          Depression       0.71      0.75      0.73      3128
+              Normal       0.86      0.95      0.90      3252
+Personality disorder       0.71      0.62      0.67       233
+              Stress       0.63      0.52      0.57       519
+            Suicidal       0.70      0.63      0.66      2132
+
+            accuracy                           0.77     10609
+           macro avg       0.76      0.70      0.73     10609
+        weighted avg       0.77      0.77      0.77     10609

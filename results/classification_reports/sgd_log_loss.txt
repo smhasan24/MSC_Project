@@ -1,0 +1,19 @@
+Model      : SGD (Log Loss)
+Family     : Classical ML
+Accuracy   : 0.4310
+Macro-F1   : 0.1670
+Test split : 20% hold-out (random_state=101)
+
+                      precision    recall  f1-score   support
+
+             Anxiety       0.00      0.00      0.00       755
+             Bipolar       0.00      0.00      0.00       590
+          Depression       0.00      0.00      0.00      3128
+              Normal       0.69      0.90      0.78      3252
+Personality disorder       0.00      0.00      0.00       233
+              Stress       0.00      0.00      0.00       519
+            Suicidal       0.26      0.77      0.39      2132
+
+            accuracy                           0.43     10609
+           macro avg       0.14      0.24      0.17     10609
+        weighted avg       0.26      0.43      0.32     10609
